@@ -1,0 +1,329 @@
+body {
+    margin: 0;
+}
+
+nav {
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    padding: 1rem;
+    display: flex;
+    height: 3rem;
+    justify-content: space-between;
+    background-color: #2F4D2E;
+    font-size: 2.2rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.logo {
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    color: #F9F9C8;
+}
+
+.logo img {
+    max-width: 100%;
+    max-height: 100%;
+    padding-left: 0.5rem;
+}
+
+.logo a {
+    padding-left: 5px;
+}
+
+.links {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    margin-right: 3rem;
+}
+ 
+a {
+    color: #F9F9C8;
+    text-decoration: none;
+}
+
+#contact {
+    background-color: #FFCC4D;
+    color: #936915;
+    padding-left: 2.7rem;
+    padding-right: 2.7rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    border-radius: 2rem;
+}
+
+#menu-icon {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.content1 {
+    padding-top: 7rem;
+    background-color: #2F4D2E;
+}
+
+.stars {
+    position: relative;
+}
+
+#stars {
+    width: 92%;
+    padding-left: 2.5rem;
+}
+
+.photo {
+    background-color: #284027;
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    transform: translate(-15%, -50%);
+    z-index: 1;
+    opacity: 0.95;
+}
+
+#bill {
+    width: 90%;
+    margin-top: 4%;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 15%
+}
+
+.instruction {
+    background-color: #284027;
+    position: absolute;
+    top: 100%;
+    left: 70%;
+    transform: translate(-15%, -50%);
+    z-index: 1;
+    opacity: 0.95;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 3%
+}
+
+.ins2 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 14rem;
+    height: 13rem;
+    background-color: #447841;
+    color: #F9F9C8;
+    font-size: 2.5rem;
+}
+
+
+.content2 {
+    background-color: #F4EF94;
+    height: 51rem;
+}
+
+.about_me {
+    padding-top: 5rem;
+    margin-left: 3rem;
+    width: 36.5rem;
+}
+
+h1, h3 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 8rem;
+    color: #7B5318;
+}
+
+#hello {
+    width: 36.5rem;
+    border-bottom: 0.13rem solid #2F4D2E;
+}
+
+h3 {
+    font-size: 3.5rem;
+    color: #2F4D2E;
+}
+
+p {
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
+    font-size: 1.7rem;
+    color: #7B5318;
+}
+
+
+.contact {
+    background-color: #284027;
+    position: absolute;
+    top: 100%;
+    left: 70%;
+    transform: translate(-40%, 50%);
+    z-index: 1;
+    padding-top: 2.5%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+.contact h1 {
+    color: #F4F094;
+    font-size: 5rem;
+    margin: 1.5rem;
+}
+
+.contact2 {
+    background-color: #447841;
+    width: 32rem;
+}
+
+.contact2 span {
+    margin-left: 1.3rem;
+    color: #F4F094;
+    font-size: 1.7rem;
+}
+
+.contact2 img {
+    width: 3.8rem;
+    margin: 0.5rem;
+}
+
+.contact2 div {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+
+.projects {
+    background-color: #447841;
+    position: absolute;
+    top: 100%;
+    left: 21.5%;
+    transform: translate(-40%, 68%);
+    z-index: 1;
+    width: 37rem;
+    height: 68rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.projects h3 {
+    color: #F9F9C8;
+    font-size: 1.8rem;
+}
+
+.eclipse {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #61A146;
+    width: 11rem;
+    height: 6rem;
+    border-radius: 80%;
+    margin-top: 1.8rem;
+}
+
+.text {
+    color: #F9F9C8;
+    font-size: 1.3rem;
+    border: 0.5rem solid #61A146;
+    padding: 0.5rem;
+    width: 28rem;
+    height: 7rem;
+}
+
+.kropki {
+    border: 0.5rem solid #61A146;
+    width: 9rem;
+    height: 5rem;
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1.8rem;
+}
+
+.line {
+    border-right: 0.5rem solid #61A146;
+    width: 18.5rem;
+    height: 3rem;
+    align-self: flex-start;
+}
+
+
+.content3 {
+    height: 53rem;
+    background-color: #2F4D2E;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.hobbies {
+    float: right;
+    margin-right: 2rem;
+}
+
+.hobbies div {
+    display: flex;
+    align-items: center;
+    width: 16rem;
+}
+
+.hobbies h1 {
+    margin: 2rem;
+    color: #F4F094;
+    font-size: 4rem;
+}
+
+.hobbies span {
+    margin-left: 2rem;
+    color: #F9F9C8;
+    font-size: 1.5rem;
+}
+
+.hobbies img {
+    width: 4.5rem;
+}
+
+.left {
+    margin-left: 2rem;
+}
+
+.right {
+    float: right;
+    margin-right: 2rem;
+}
+
+.film {
+    margin-left: 25%;
+}
+
+
+.skills {
+    float: right;
+    margin-right: 2rem;
+}
+
+.skills h1 {
+    margin: 2rem;
+    margin-right: 7.5rem;
+    color: #F4F094;
+    font-size: 4rem;
+}
+
+.skills img {
+    width: 6.25rem;
+    margin: 1rem;
+}
+
+html {
+    scroll-behavior: smooth;
+}
